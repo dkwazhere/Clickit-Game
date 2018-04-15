@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "nomnomnom",
+    "image": "https://media0.giphy.com/media/RlH4gZYWOsAgg/giphy.gif",
+    "location": "Canada"
+  },
+  {
+    "id": 2,
+    "name": "llambie",
+    "image": "https://media.giphy.com/media/l49JSZC93qEaoEe3e/giphy.gif",
+    "location": "China"
+  },
+  {
+    "id": 3,
+    "name": "llamduncare",
+    "image": "https://media1.giphy.com/media/3Uv8LRHM4vOMg/giphy.gif",
+    "location": "Guam"
+  },
+  {
+    "id": 4,
+    "name": "heyyyyyyy",
+    "image": "https://media.giphy.com/media/xT1XGDKwOxacd92rYI/giphy.gif",
+    "location": "Singapore"
+  },
+  {
+    "id": 5,
+    "name": "sheepllama",
+    "image": "https://media.giphy.com/media/d2YYzi8hGe3EZkB2/giphy.gif",
+    "location": "Alaska"
+  },
+  {
+    "id": 6,
+    "name": "llammatian",
+    "image": "https://media.giphy.com/media/avO8xDhoBgOzK/giphy.gif",
+    "location": "New York"
+  },
+  {
+    "id": 7,
+    "name": "emotionalllamasupport",
+    "image": "https://media.giphy.com/media/8qz7Kg8gaZmwM/giphy.gif",
+    "location": "Seoul"
+  },
+  {
+    "id": 8,
+    "name": "spacellamana",
+    "image": "https://media.giphy.com/media/l4pSUq8RVJg4trzPy/giphy.gif",
+    "location": "Nagasaki"
+  },
+  {
+    "id": 9,
+    "name": "seeya",
+    "image": "https://media.giphy.com/media/fytPRjZv1qsCY/giphy.gif",
+    "location": "Mongolia"
+  },
+  {
+    "id": 10,
+    "name": "youarenotalpha",
+    "image": "https://media.giphy.com/media/11xX8BEEHjCaWI/giphy.gif",
+    "location": "European"
+  },
+  {
+    "id": 11,
+    "name": "highllama",
+    "image": "https://media.giphy.com/media/eIPtrBFtMq5LW/giphy.gif",
+    "location": "North Pole"
+  },
+  {
+    "id": 12,
+    "name": "nope",
+    "image": "https://media.giphy.com/media/fdxcKyxrr4FRm/giphy.gif",
+    "location": "Candyland"
+  }
+]
