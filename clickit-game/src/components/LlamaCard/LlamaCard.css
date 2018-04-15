@@ -45,3 +45,8 @@
 .card > .remove:hover {
   color: #d50000;
 }
+
+img {
+  height: 200;
+  width: 200px;
+}
