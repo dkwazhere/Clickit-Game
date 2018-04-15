@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import llamas from "./llamas.json";
+import './App.css';
 import LlamaCard from "./components/LlamaCard";
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
-import llamas from "./llamas.json";
-import './App.css';
 
 class App extends Component {
   // Setting this.state.characters to the characterse json array.
@@ -15,6 +15,44 @@ class App extends Component {
     llama: llamas,
     unselectedLlamas: llamas
   };
+    //
+    // componentDidMount() {
+    // }
+    //
+    // shuffleArray = array => {
+    //     for (let i = array.length - 1; i > 0; i--) {
+    //         let j = Math.floor(Math.random() * (i + 1));
+    //         [array[i], array[j]] = [array[j], array[i]];
+    //     }
+    // }
+    //
+    // selectLlama = breed => {
+    //     const findLlama = this.state.unselectedLlamas.find(item => item.breed === breed);
+    //
+    //     if(findLlama === undefined) {
+    //         // failure to select a new llama
+    //         this.setState({
+    //             message: "You guessed incorrectly!",
+    //             topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
+    //             curScore: 0,
+    //             llamas: llamas,
+    //             unselectedLlamas: llamas
+    //         });
+    //     }
+    //     else {
+    //         // success to select a new llama
+    //         const newLlamas = this.state.unselectedLlamas.filter(item => item.breed !== breed);
+    //
+    //         this.setState({
+    //             message: "You guessed correctly!",
+    //             curScore: this.state.curScore + 1,
+    //             llamas: llamas,
+    //             unselectedLlamas: newLlamas
+    //         });
+    //     }
+    //
+    //     this.shuffleArray(llamas);
+    // };
 
     componentDidMount() {
     }
@@ -30,24 +68,24 @@ class App extends Component {
         const findLlama = this.state.unselectedLlamas.find(item => item.breed === breed);
 
         if(findLlama === undefined) {
-            // failure to select a new llama
+            // failure to select a new Llama
             this.setState({
                 message: "You guessed incorrectly!",
                 topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
                 curScore: 0,
                 llamas: llamas,
-                unselectedLlamas: llamas
+                unselectedllamas: llamas
             });
         }
         else {
-            // success to select a new llama
+            // success to select a new Llama
             const newLlamas = this.state.unselectedLlamas.filter(item => item.breed !== breed);
 
             this.setState({
                 message: "You guessed correctly!",
                 curScore: this.state.curScore + 1,
                 llamas: llamas,
-                unselectedLlamas: newLlamas
+                unselectedLlamas: llamas
             });
         }
 
